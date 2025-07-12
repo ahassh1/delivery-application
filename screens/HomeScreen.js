@@ -65,22 +65,18 @@ const HomeScreen = () => {
         {/* categories */}
         <Categories />
         {/* featured rows  */}
-        <FeaturedRow
-          title="Featured"
-          description="Paid placements from our partners"
-          featuredCategory="featured"
-        />
+        <FeaturedRow id="123" title="Featured" description="Paid placements from our partners" />
         {/* Teasty Discount */}
         <FeaturedRow
+          id="1234"
           title="Tasty Discounts"
           description="Everyone's been enjoy these juicy discounts!"
-          featuredCategory="discounts"
         />
         {/* Offer near you */}
         <FeaturedRow
+          id="12345"
           title="Offers near you"
           description="Why not support your local restaurant tonight"
-          featuredCategory="offers"
         />
       </ScrollView>
     </SafeAreaView>
