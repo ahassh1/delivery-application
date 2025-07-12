@@ -95,6 +95,12 @@ const HomeScreen = () => {
 export default HomeScreen;
 ```
 
+## react hero icon install
+
+```bash
+npm i react-native-heroicons react-native-svg
+```
+
 ---
 
 ## 📝 Notes
