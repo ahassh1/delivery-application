@@ -116,3 +116,15 @@ Let me know if you want more advanced setup like:
 - ✅ Authentication screens
 - ✅ Splash screen
 - ✅ Dark/light theme toggle
+
+## Web version watching for install
+
+```bash
+  npx expo install react-dom react-native-web @expo/metro-runtime
+```
+
+## Web version is uninstall command
+
+```bash
+npm uninstall react-dom react-native-web @expo/metro-runtime
+```
